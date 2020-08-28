@@ -1,0 +1,28 @@
+@font-face {
+   font-family: 'Dancing Script';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/james/Documents/GitHub/painprenelle.github.io/fonts/Dancing Script/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Dancing Script';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/james/Documents/GitHub/painprenelle.github.io/fonts/Dancing Script/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Dancing Script';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/james/Documents/GitHub/painprenelle.github.io/fonts/Dancing Script/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Dancing Script';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/james/Documents/GitHub/painprenelle.github.io/fonts/Dancing Script/regular.ttf') format('truetype');
+}
