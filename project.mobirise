@@ -86,7 +86,9 @@
     "siteUrl": false,
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
