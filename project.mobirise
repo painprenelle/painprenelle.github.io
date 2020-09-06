@@ -87,6 +87,8 @@
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
     "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "google-analytics": "<meta name=\"google-site-verification\" content=\"STiD1Y34uyD9VmZXYqfUq0TztHiE2oIW3Ur6anhIYpg\" />",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
