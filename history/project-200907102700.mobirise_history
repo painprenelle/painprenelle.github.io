@@ -80,17 +80,17 @@
     "versionPublish": "4.12.3",
     "imageResize": true,
     "favicon": false,
-    "robotsSwitcher": true,
-    "sitemapSwitcher": true,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": "https://www.painprenelle.be/",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": false,
     "screenshot": "screenshot.png",
     "cookiesAlert": false,
     "gdpr": false,
     "publishType": "local",
     "publishPath": "@PROJECT_PATH@",
     "google-analytics": "",
-    "robotsText": "User-agent: *\nAllow: /\nAllow: /sitemap.htm\nSitemap: https://painprenelle.be/sitemap.xml\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
