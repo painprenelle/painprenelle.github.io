@@ -1,18 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://painprenelle.be/</loc>
-    <lastmod>2020-09-07</lastmod>
-  </url>
-  <url>
-    <loc>https://painprenelle.be/presentation.html</loc>
-    <lastmod>2020-09-07</lastmod>
-  </url>
-  <url>
-    <loc>https://painprenelle.be/index.html</loc>
-    <lastmod>2020-09-07</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.painprenelle.be/</loc>
+  <lastmod>2020-09-07T14:22:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.painprenelle.be/index.html</loc>
+  <lastmod>2020-09-07T14:22:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.painprenelle.be/presentation.html</loc>
+  <lastmod>2020-09-07T14:22:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
-<!--<guid value="f27d2627-126d-4d2e-bf55-1bfe0ad8a280" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
