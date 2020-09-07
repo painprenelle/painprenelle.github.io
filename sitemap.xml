@@ -1,11 +1,18 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://painprenelle.be/index.html</loc>
-	</url>
-	<url>
-		<loc>https://painprenelle.be/presentation.html</loc>
-	</url>
-	<url>
-		<loc>https://painprenelle.be/video.html</loc>
-	</url>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://painprenelle.be/</loc>
+    <lastmod>2020-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://painprenelle.be/presentation.html</loc>
+    <lastmod>2020-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://painprenelle.be/index.html</loc>
+    <lastmod>2020-09-07</lastmod>
+  </url>
 </urlset>
+<!--<guid value="f27d2627-126d-4d2e-bf55-1bfe0ad8a280" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
