@@ -1111,6 +1111,30 @@ section.lazy-placeholder:after {
 .cid-s4lmbV9fjN .dropdown-item:hover {
   color: #f9dcc4 !important;
 }
+.cid-sduJosUPuR {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-sduJosUPuR .line {
+  background-color: #cc2952;
+  color: #cc2952;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-sduJosUPuR .section-text {
+  padding: 2rem 0;
+  color: #cc2952;
+}
+.cid-sduJosUPuR .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-sduJosUPuR .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-s4lnZtnwAY {
   background-image: url("../../../assets/images/img-252-2000x1333.jpg");
 }
