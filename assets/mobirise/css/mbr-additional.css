@@ -930,7 +930,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-s4lmbV9fjN .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 6.4rem);
+    max-height: calc(98.5vh - 7rem);
   }
 }
 .cid-s4lmbV9fjN .collapsed button.navbar-toggler {
@@ -1119,60 +1119,135 @@ section.lazy-placeholder:after {
   color: #f2c26d;
   text-align: center;
 }
-.cid-s8V5K3oYT7 {
+.cid-sjJKBpr8ku {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
-.cid-s8V5K3oYT7 h4 {
+.cid-sjJKBpr8ku .title {
+  padding-bottom: 2.5rem;
+}
+.cid-sjJKBpr8ku h4 {
   width: 85%;
   font-weight: 500;
   margin-bottom: 0;
 }
-.cid-s8V5K3oYT7 p {
+.cid-sjJKBpr8ku .bottom-line p {
   color: #767676;
 }
-.cid-s8V5K3oYT7 .card-wrapper {
-  border-top: 1px solid #efefef;
-  background-color: #f8f5e1;
+.cid-sjJKBpr8ku .card-wrapper {
+  background-color: #f2c26d;
   position: relative;
   justify-content: unset;
 }
-.cid-s8V5K3oYT7 .card-wrapper .card-box {
-  padding: 2rem;
+.cid-sjJKBpr8ku .card-wrapper .card-box {
   width: 100%;
 }
-.cid-s8V5K3oYT7 .card-wrapper .card-box .top-line {
+.cid-sjJKBpr8ku .card-wrapper .card-box .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cid-sjJKBpr8ku .card-wrapper .card-box .wrapper .top-line {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.cid-s8V5K3oYT7 .card-wrapper .card-box .bottom-line {
+.cid-sjJKBpr8ku .card-wrapper .card-box .wrapper .bottom-line {
   width: 85%;
 }
 @media (max-width: 767px) {
-  .cid-s8V5K3oYT7 .card-wrapper .card-box .bottom-line {
+  .cid-sjJKBpr8ku .card-wrapper .card-box .wrapper .bottom-line {
     width: 100%;
   }
-  .cid-s8V5K3oYT7 .card-wrapper .card-box .bottom-line p {
+  .cid-sjJKBpr8ku .card-wrapper .card-box .wrapper .bottom-line p {
     text-align: center;
     margin: 1rem 0 0 0;
   }
 }
-.cid-s8V5K3oYT7 H2 {
-  color: #f2c26d;
-  text-align: center;
+@media (max-width: 767px) {
+  .cid-sjJKBpr8ku .card.pb-5 {
+    padding-bottom: 2rem !important;
+  }
+  .cid-sjJKBpr8ku .wrapper {
+    padding-top: 1rem;
+  }
 }
-.cid-s8V5K3oYT7 .card-title {
+.cid-sjJKBpr8ku H2 {
   color: #f2c26d;
-  text-align: left;
 }
-.cid-s8V5K3oYT7 .cost {
-  color: #f2c26d;
+.cid-sjJKBpr8ku .card-title {
+  color: #efefef;
+}
+.cid-sjJKBpr8ku .cost {
+  color: #767676;
   text-align: right;
 }
-.cid-s8V5K3oYT7 .b-descr {
-  text-align: left;
+.cid-sjJLuIxOFM {
+  padding-top: 0px;
+  padding-bottom: 105px;
+  background-color: #ffffff;
+}
+.cid-sjJLuIxOFM .title {
+  padding-bottom: 2.5rem;
+}
+.cid-sjJLuIxOFM h4 {
+  width: 85%;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cid-sjJLuIxOFM .bottom-line p {
+  color: #767676;
+}
+.cid-sjJLuIxOFM .card-wrapper {
+  background-color: #f2c26d;
+  position: relative;
+  justify-content: unset;
+}
+.cid-sjJLuIxOFM .card-wrapper .card-box {
+  width: 100%;
+}
+.cid-sjJLuIxOFM .card-wrapper .card-box .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cid-sjJLuIxOFM .card-wrapper .card-box .wrapper .top-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-sjJLuIxOFM .card-wrapper .card-box .wrapper .bottom-line {
+  width: 85%;
+}
+@media (max-width: 767px) {
+  .cid-sjJLuIxOFM .card-wrapper .card-box .wrapper .bottom-line {
+    width: 100%;
+  }
+  .cid-sjJLuIxOFM .card-wrapper .card-box .wrapper .bottom-line p {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sjJLuIxOFM .card.pb-5 {
+    padding-bottom: 2rem !important;
+  }
+  .cid-sjJLuIxOFM .wrapper {
+    padding-top: 1rem;
+  }
+}
+.cid-sjJLuIxOFM .card-title {
+  color: #efefef;
+}
+.cid-sjJLuIxOFM .cost {
+  color: #767676;
 }
 .cid-siDx8tVKZZ {
   padding-top: 0px;
@@ -1651,7 +1726,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-s9oqNJaqp5 .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 6.4rem);
+    max-height: calc(98.5vh - 7rem);
   }
 }
 .cid-s9oqNJaqp5 .collapsed button.navbar-toggler {
