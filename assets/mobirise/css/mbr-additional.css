@@ -1095,29 +1095,6 @@ section.lazy-placeholder:after {
   color: #f2c26d;
   text-align: center;
 }
-.cid-sDGevFkfak {
-  padding-top: 120px;
-  padding-bottom: 75px;
-  background-color: #ffffff;
-}
-.cid-sDGevFkfak .line {
-  background-color: #ffcc66;
-  color: #ffcc66;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-sDGevFkfak .section-text {
-  padding: 2rem 0;
-}
-.cid-sDGevFkfak .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-sDGevFkfak .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-sjJKBpr8ku {
   padding-top: 90px;
   padding-bottom: 15px;
