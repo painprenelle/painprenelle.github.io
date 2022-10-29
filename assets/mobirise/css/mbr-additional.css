@@ -573,6 +573,32 @@ blockquote {
 .mbr-form .input-group-btn button[type="submit"]:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
+.form2 .form-control {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.form2 .input-group-btn a.btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form2 .input-group-btn button[type="submit"] {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form3 input[type="email"] {
+  border-radius: 100px !important;
+}
+@media (max-width: 349px) {
+  .form2 input[type="email"] {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn a.btn {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn button[type="submit"] {
+    border-radius: 100px !important;
+  }
+}
 @media (max-width: 767px) {
   .btn {
     font-size: .75rem !important;
@@ -683,6 +709,30 @@ iframe.lazy-placeholder,
 }
 section.lazy-placeholder:after {
   opacity: 0.3;
+}
+.cid-tlG49vyXrc {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-tlG49vyXrc .line {
+  background-color: #ffcc66;
+  color: #ffcc66;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-tlG49vyXrc .section-text {
+  padding: 2rem 0;
+  color: #f2c26d;
+}
+.cid-tlG49vyXrc .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-tlG49vyXrc .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-s4lmbV9fjN .navbar {
   background: #ffffff;
@@ -1455,6 +1505,37 @@ section.lazy-placeholder:after {
 }
 .cid-s8VdAk0JzQ .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-tlG43fy39b {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-tlG43fy39b .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-tlG48Xxxjd {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-tlG48Xxxjd .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-tlG48Xxxjd .section-text {
+  padding: 2rem 0;
+}
+.cid-tlG48Xxxjd .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-tlG48Xxxjd .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-s9oqNJaqp5 .navbar {
   background: #ffffff;
