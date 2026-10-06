@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painprenelle · Boulangerie artisanale au levain à Mormont (Erezée)</title>
+  <meta name="description" content="Pain au levain bio, farines belges moulues sur pierre, cuit au feu de bois. Boulangerie artisanale de Caroline Baltus à Mormont (Erezée). Commandes pour le vendredi et le samedi.">
+  <!-- Version de prévisualisation : retirer cette ligne lors de la mise en ligne -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f8f2e7">
+  <meta property="og:title" content="Painprenelle · Pain au levain à Mormont">
+  <meta property="og:description" content="Un pain de qualité à base de farines bio et belges, cuit sur pierre, fabriqué avec le cœur et les mains.">
+  <meta property="og:image" content="img/petrissage.jpg">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,100,0..1;1,9..144,400..700,100,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Painprenelle",
+    "image": "https://painprenelle.be/v2/img/petrissage.jpg",
+    "email": "info@painprenelle.be",
+    "url": "https://painprenelle.be/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue Haute 5/A",
+      "postalCode": "6997",
+      "addressLocality": "Mormont (Erezée)",
+      "addressCountry": "BE"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "16:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "13:00" }
+    ],
+    "sameAs": ["https://www.instagram.com/painprenelle.be/"]
+  }
+  </script>
+</head>
+<body>
+
+  <a class="sr-only" href="#contenu">Aller au contenu</a>
+
+  <div class="announce" data-annonce hidden role="status"></div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Painprenelle, accueil">
+        <img src="img/favicon.png" alt="" width="44" height="44">
+        <span>Painprenelle</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <a href="#pains">Nos pains</a>
+        <a href="#horaires">Horaires & retrait</a>
+        <a href="presentation.html">Notre histoire</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--small" href="#commander">Commander</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="reveal">
+          <span class="eyebrow">Boulangerie artisanale · Mormont (Erezée)</span>
+          <h1>Du pain au levain, <em>fait main</em>, cuit sur la pierre.</h1>
+          <p class="lead">Un pain de qualité à base de farines bio et belges, cuit sur pierre, fabriqué avec le cœur et les mains, sans engins ni poudre de perlinpinpin&nbsp;!</p>
+          <div class="hero-actions">
+            <a class="btn" href="#commander">
+              Commander mon pain
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#pains">Voir les pains</a>
+          </div>
+          <span class="status" data-statut><span class="dot"></span><span class="txt">Vendredi 16h–20h · Samedi matin</span></span>
+        </div>
+        <div class="hero-media reveal">
+          <div class="photo">
+            <img src="img/caroline.jpg" alt="Caroline, la boulangère, tient un pâton fraîchement façonné sur son plan de travail fariné" width="1000" height="1500" fetchpriority="high">
+          </div>
+          <div class="sticker" role="img" aria-label="Aquarelle Painprenelle : une miche entourée de feuilles de pimprenelle"></div>
+          <div class="note">bio &amp; belge&nbsp;!</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VALEURS ============ -->
+    <section class="values" aria-label="Notre façon de faire">
+      <div class="wrap">
+        <ul>
+          <li>
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 36V12"/><path d="M20 14c-4-1-6-4-6-8 4 1 6 4 6 8zM20 14c4-1 6-4 6-8-4 1-6 4-6 8zM20 22c-4-1-6-4-6-8 4 1 6 4 6 8zM20 22c4-1 6-4 6-8-4 1-6 4-6 8zM20 30c-4-1-6-4-6-8 4 1 6 4 6 8zM20 30c4-1 6-4 6-8-4 1-6 4-6 8z"/></svg>
+            <span>Farines bio &amp; belges<small>Céréales de cultures régionales</small></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="20" cy="15" rx="14" ry="5"/><path d="M6 15v5c0 2.8 6.3 5 14 5s14-2.2 14-5v-5"/><ellipse cx="20" cy="15" rx="3" ry="1"/><path d="M6 25v5c0 2.8 6.3 5 14 5s14-2.2 14-5v-5"/></svg>
+            <span>Moulues sur pierre<small>Moulin de type Astrié</small></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 14h18v16a4 4 0 0 1-4 4H15a4 4 0 0 1-4-4z"/><path d="M9 14h22"/><circle cx="17" cy="22" r="1.5"/><circle cx="23" cy="26" r="1.2"/><circle cx="21" cy="19" r="1"/><path d="M16 9c0-2 2-2 2-4M22 9c0-2 2-2 2-4"/></svg>
+            <span>Levain naturel<small>Fermentation lente</small></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 35c-6 0-10-4-10-10 0-6 6-9 6-16 4 3 5 6 5 9 1-2 3-3 3-6 4 4 6 8 6 13 0 6-4 10-10 10z"/><path d="M20 35c-3 0-4-2-4-5 0-3 4-5 4-8 2 2 4 5 4 8s-1 5-4 5z"/></svg>
+            <span>Cuit au feu de bois<small>Sur sole en pierre</small></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PAINS ============ -->
+    <section class="section" id="pains">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">La boulangerie</span>
+            <h2>Nos pains</h2>
+          </div>
+          <p class="muted">Farines bio et belges, levain naturel, cuisson sur pierre. Deux formats pour la plupart des pains&nbsp;: 600&nbsp;g et 900&nbsp;g.</p>
+        </div>
+
+        <div class="breads">
+          <article class="bread reveal">
+            <figure><img src="img/p-levain.jpg" alt="Le Doré de froment au levain" loading="lazy" width="310" height="207"><span class="tag">Au levain</span></figure>
+            <div class="bread-body">
+              <h3>Le Doré de Froment <small>au levain</small></h3>
+              <p class="ingredients">Farine bio de froment T70, levain naturel, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="3"><span class="label">600 g</span><span class="price">3 €</span></div>
+                <div class="size" data-size="900 g" data-price="4.5"><span class="label">900 g</span><span class="price">4,50 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/p-levure.jpg" alt="Le Doré de froment à la levure" loading="lazy" width="310" height="207"></figure>
+            <div class="bread-body">
+              <h3>Le Doré de Froment <small>à la levure</small></h3>
+              <p class="ingredients">Farine bio de froment T70, levure, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="3"><span class="label">600 g</span><span class="price">3 €</span></div>
+                <div class="size" data-size="900 g" data-price="4.5"><span class="label">900 g</span><span class="price">4,50 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/p-epeautre.jpg" alt="Le Demi-gris d'épeautre" loading="lazy" width="310" height="207"><span class="tag">Au levain</span></figure>
+            <div class="bread-body">
+              <h3>Le Demi-Gris d'Épeautre</h3>
+              <p class="ingredients">Farine bio d'épeautre T80, levain naturel, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="3.5"><span class="label">600 g</span><span class="price">3,50 €</span></div>
+                <div class="size" data-size="900 g" data-price="5"><span class="label">900 g</span><span class="price">5 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/p-seigle.jpg" alt="Le Gris de seigle" loading="lazy" width="310" height="207"><span class="tag">Au levain</span></figure>
+            <div class="bread-body">
+              <h3>Le Gris de Seigle</h3>
+              <p class="ingredients">Farine bio de seigle T80, levain naturel, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="3.5"><span class="label">600 g</span><span class="price">3,50 €</span></div>
+                <div class="size" data-size="900 g" data-price="5"><span class="label">900 g</span><span class="price">5 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/p-multi.jpg" alt="Le Multicéréales" loading="lazy" width="310" height="207"><span class="tag">Au levain</span></figure>
+            <div class="bread-body">
+              <h3>Le Multicéréales</h3>
+              <p class="ingredients">Farine bio de froment T80, farine bio d'épeautre T80, graines de lin et de tournesol, levain naturel, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="4"><span class="label">600 g</span><span class="price">4 €</span></div>
+                <div class="size" data-size="900 g" data-price="5.5"><span class="label">900 g</span><span class="price">5,50 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/p-gourmand.jpg" alt="Le Seigle gourmand aux noix et fruits secs" loading="lazy" width="310" height="207"><span class="tag tag--wheat">Noix &amp; fruits secs</span></figure>
+            <div class="bread-body">
+              <h3>Le Seigle Gourmand</h3>
+              <p class="ingredients">Farine bio de seigle T80, noix et fruits secs, levain naturel, eau, sel.</p>
+              <div class="sizes">
+                <div class="size" data-size="600 g" data-price="6.5"><span class="label">600 g</span><span class="price">6,50 €</span></div>
+                <div class="size" data-size="900 g" data-price="9.5"><span class="label">900 g</span><span class="price">9,50 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bread reveal">
+            <figure><img src="img/brioches.jpg" alt="Des brioches dorées sur le plan de travail" loading="lazy" width="310" height="271" style="object-position:50% 70%"><span class="tag tag--wheat">Samedi matin uniquement</span></figure>
+            <div class="bread-body">
+              <h3>Les Brioches</h3>
+              <p class="ingredients">Farine bio de froment T60, levure, eau, sel, beurre, lait, sucre, œufs.</p>
+              <div class="sizes">
+                <div class="size" data-size="pièce" data-price="1.5"><span class="label">La pièce</span><span class="price">1,50 €</span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="bread-cta reveal">
+            <span class="hand" style="font-size:1.6rem">Il y a bien sûr toujours du pain en plus&nbsp;!</span>
+            <h3>Commander, c'est limiter le gaspillage.</h3>
+            <p>Réservez vos pains au moins 24h à l'avance pour le vendredi ou le samedi&nbsp;: ils vous attendent au comptoir, au marché ou dans l'un des dépôts.</p>
+            <a class="btn" href="#commander">Passer commande</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- ============ HORAIRES ============ -->
+    <section class="section section--tint" id="horaires">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Quand &amp; où</span>
+            <h2>Horaires &amp; retrait</h2>
+          </div>
+          <span class="status" data-statut><span class="dot"></span><span class="txt">Vendredi 16h–20h · Samedi matin</span></span>
+        </div>
+
+        <div class="schedule">
+          <article class="day reveal" data-jour="5">
+            <h3>Vendredi</h3>
+            <div class="slot">
+              <span class="time">16h – 20h</span>
+              <span class="what"><small>Atelier &amp; dépôts</small>Self-service au comptoir de l'atelier, et dépôts à Fays, Ferrières et Werbomont.
+                <span class="depots"><span>Fays</span><span>Ferrières</span><span>Werbomont</span></span>
+              </span>
+            </div>
+          </article>
+
+          <article class="day reveal" data-jour="6">
+            <h3>Samedi</h3>
+            <div class="slot" data-saison="hiver">
+              <span class="time">8h30 – 12h30</span>
+              <span class="what"><small>Novembre → mars <span class="season-badge" hidden>en ce moment</span></small>Vente à l'atelier, puis self-service l'après-midi.</span>
+            </div>
+            <div class="slot" data-saison="ete">
+              <span class="time">9h – 13h</span>
+              <span class="what"><small>Avril → octobre <span class="season-badge" hidden>en ce moment</span></small>Vente au marché sur la place du village, puis self-service l'après-midi.</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="info-grid">
+          <ul class="info-list">
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <p><strong>Commandes 24h à l'avance</strong>, afin de limiter le gaspillage alimentaire.</p>
+            </li>
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <p><strong>Un dépôt près de chez vous&nbsp;?</strong> Pour connaître le point de dépôt le plus proche, ou pour en créer un chez vous, un mail à <a href="mailto:info@painprenelle.be">info@painprenelle.be</a>&nbsp;!</p>
+            </li>
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l4-8h5l3 8M9 9h-2M14 9l-2-3h-2"/></svg>
+              <p><strong>Par respect pour le voisinage</strong>, mille mercis de privilégier la mobilité douce ou le parking devant l'église.</p>
+            </li>
+          </ul>
+          <div class="map reveal">
+            <iframe title="Painprenelle sur la carte, Rue Haute 5/A à Mormont" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.53733348731805!2d5.5934497083522015!3d50.324154985829935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c045a7d1c30b1d%3A0xa40ff7f98b440d24!2sPainprenelle!5e0!3m2!1sfr!2sbe!4v1635881928839!5m2!1sfr!2sbe"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HISTOIRE ============ -->
+    <section class="section section--green">
+      <div class="wrap story">
+        <div class="story-photos reveal">
+          <img src="img/petrissage.jpg" alt="Les mains de Caroline pétrissent la pâte à côté d'un bac de farine" loading="lazy">
+          <img src="img/feu.jpg" alt="Le feu de bois sous la sole du four" loading="lazy">
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Qui est Painprenelle&nbsp;?</span>
+          <blockquote>
+            Je rêve que mon pain nourrisse les liens entre les habitants, comme tout petit commerce de village le faisait encore il n'y a pas si longtemps…
+            <cite>Caroline, votre boulangère</cite>
+          </blockquote>
+          <p class="lead">Boulangère depuis 2015, formée par la pratique et la parlotte auprès de boulangers et de boulangères dont elle appréciait le pain et les qualités humaines. Farines moulues sur meule de pierre, levain nourri chaque jour, four chauffé au bois&nbsp;: découvrez comment naît votre pain.</p>
+          <a class="btn btn--ghost" href="presentation.html">
+            Lire notre histoire
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMMANDE ============ -->
+    <section class="section" id="commander">
+      <div class="wrap order">
+        <div class="order-intro reveal">
+          <span class="eyebrow">Commander</span>
+          <h2>Pour passer commande</h2>
+          <p class="lead">Soit par mail via le formulaire ci-contre en précisant bien votre nom, prénom et les pains souhaités.</p>
+          <ul class="info-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <p><strong>Commandes 24h à l'avance</strong> afin de limiter le gaspillage alimentaire.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M6 7v12h12V7M9 7V5h6v2"/></svg>
+              <p><strong>Retrait le vendredi ou le samedi</strong>, à l'atelier, au marché ou dans l'un des dépôts. <a href="#horaires">Voir les horaires</a></p>
+            </li>
+          </ul>
+          <p class="hand" style="font-size:1.6rem;margin-top:24px">Merci pour votre commande&nbsp;!</p>
+        </div>
+
+        <div class="order-card reveal" data-form-type="formoid">
+          <form action="https://mobirise.com/" method="POST" class="order-form" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="h32LR4SasYimcVnc9D68xCf7kAQip5083WXqy44ZEoj+ANc6ijGfFv/d2kMGwDZuTV1bFuZhvciO8g5jrChteZoBgyCCcRReNr/A4GtWeM4c0D+Aby3QXCphDJy9qIFJ">
+            <div hidden="hidden" data-form-alert="" class="alert alert-success">Merci pour votre commande !</div>
+            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger"></div>
+            <div class="field">
+              <label for="name-form1-7">Nom</label>
+              <input type="text" name="name" data-form-field="Name" required="required" id="name-form1-7" autocomplete="name">
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="email-form1-7">Email</label>
+                <input type="email" name="email" data-form-field="Email" required="required" id="email-form1-7" autocomplete="email">
+              </div>
+              <div class="field">
+                <label for="phone-form1-7">Téléphone</label>
+                <input type="tel" name="phone" data-form-field="Phone" id="phone-form1-7" autocomplete="tel">
+              </div>
+            </div>
+            <div class="field">
+              <label for="message-form1-7">Commande <span class="opt">(exemple&nbsp;: 1 doré de froment levure 1kg, 2 multi 500gr)</span></label>
+              <textarea name="message" data-form-field="Message" id="message-form1-7" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn">Commander</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ PIED DE PAGE ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="img/favicon.png" alt="" width="64" height="64">
+            <span>Painprenelle</span>
+          </div>
+          <p>Pain au levain, farines bio et belges, cuit au feu de bois. Fabriqué avec le cœur et les mains à Mormont.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Caroline Baltus</li>
+            <li><a href="mailto:info@painprenelle.be">info@painprenelle.be</a></li>
+            <li><a class="social" href="https://www.instagram.com/painprenelle.be/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+              @painprenelle.be</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Adresse</h4>
+          <address>Rue Haute 5/A<br>6997 Mormont (Erezée)<br>Belgique</address>
+        </div>
+        <div>
+          <h4>Horaires</h4>
+          <ul>
+            <li>Vendredi · 16h–20h</li>
+            <li>Samedi · matin</li>
+            <li><a href="#horaires">Détails &amp; dépôts</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-annee>2026</span> painprenelle.be</span>
+        <span>Illustration&nbsp;: aquarelle Painprenelle</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/formoid.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
